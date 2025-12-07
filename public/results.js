@@ -161,7 +161,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         dynamicSectionsContainer.appendChild(div);
       }
   
-      // ✅ Prevent re-analysis on refresh or return
+      // Prevent re-analysis on refresh or return
       sessionStorage.setItem("analysisDone", "true");
   
     } catch (error) {
